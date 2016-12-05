@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLt';
+    src: url('../fonts/HelveticaNeueLt.ttf');
+    font-weight: bold;
+}
+
+body {
+    background: url("../img/background-copy.png");
+    background-position: top center;
+    -moz-background-size: 100%;
+    /* Firefox 3.6+ */
+    -webkit-background-size: 100%;
+    /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+    /* Opera 9.6+ */
+    background-size: 100%;
+    /* Современные браузеры */
+    background-repeat: no-repeat;
+		margin: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 37px;
+    margin: 0 auto;
+    background-color: #085394;
+}
+
+.bar li {
+    float: right;
+    height: 37px;
+    margin: 0 4px 0 5px;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+}
+
+.bar li:hover {
+    height: 37px;
+    background-color: #4eabda;
+    color: white;
+}
+
+.bar li:hover>a {
+    height: 37px;
+    background-color: #4eabda;
+    color: white;
+}
+
+a {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    padding: 0 13px;
+    color: #60b5ed;
+    text-decoration: none;
+    font-family: 'HelveticaNeue', Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.bar .link {
+    text-decoration: underline;
+    color: white;
+}
+
+.bar .link1 {
+    color: white;
+}
+
+.b-img {
+    line-height: 50px;
+    border-left: 1px solid white;
+}
+
+.special {
+	background: -moz-linear-gradient(top, rgba(100,168,227,1) 0%, rgba(67,153,211,1) 97%, rgba(66,153,211,0.59) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(100,168,227,1) 0%,rgba(67,153,211,1) 97%,rgba(66,153,211,0.59) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(100,168,227,1) 0%,rgba(67,153,211,1) 97%,rgba(66,153,211,0.59) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64a8e3', endColorstr='#964299d3',GradientType=0 ); /* IE6-9 */
+}
+
+.wrapper {
+    width: 1215px;
+    height: 1028px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Cadastre {
+    position: absolute;
+    width: 560px;
+    height: 613px;
+    background-color: rgba(16,16,16, 0.63);
+    margin-top: 213px;
+    margin-left: 351px;
+}
+
+.Cadastre-s {
+    width: 560px;
+    height: 62px;
+    color: white;
+    text-align: center;
+    font-family: 'HelveticaNeueLt', Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+h1 {
+    padding-right: 10px;
+    padding-left: 1px;
+    padding-top: 23px;
+    border-bottom: 2px solid white;
+    font-weight: normal;
+    padding-bottom: 23px;
+}
+
+.title {
+    position: absolute;
+    left:146px;
+    top: 159px;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    color: #bbc5ad;
+    font-family: 'HelveticaNeueLt', Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.title:after, .title:before {
+    content: '';
+    display: block;
+    height:2px;
+    width: 121px;
+    background: #000;
+}
+
+.title h2 {
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.center {
+    width: 275px;
+    height: 35px;
+    margin: 17px auto;
+    color: #ccc;
+    font-family: 'HelveticaNeueLt', Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.center input, button {
+    width: 275px;
+    height: 35px;
+}
+
+.center button {
+    position: absolute;
+    z-index: 2;
+}
+
+.fb-btn {
+    display: inline-block;
+    white-space: nowrap;
+    background: rgb(63, 87, 147);
+    background: -moz-linear-gradient(top, rgba(63, 87, 147, 1) 0%, rgba(49, 67, 115, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(63, 87, 147, 1) 0%, rgba(49, 67, 115, 1) 100%);
+    background: linear-gradient(to bottom, rgba(63, 87, 147, 1) 0%, rgba(49, 67, 115, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3f5793', endColorstr='#314373', GradientType=0);
+    border: 1px solid rgba(9, 12, 21, 0.36);
+    padding: 0 54px 0 0;
+    margin: 34px 0 0 145px;
+    font: 600 14px/35px Tahoma;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 0 0 rgba(8, 2, 80, 0.81);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 1px 0 0 rgba(8, 2, 80, 0.81) inset, 1px 0 0 rgba(8, 2, 80, 0.81);
+    -webkit-box-shadow: 1px 0 0 rgba(8, 2, 80, 0.81) inset, 1px 0 0 rgba(8, 2, 80, 0.81);
+    box-shadow: 1px 0 0 rgba(8, 2, 80, 0.81) inset, 1px 0 0 rgba(8, 2, 80, 0.81);
+}
+
+.fb-btn:before {
+    background: #ccc;
+    background: rgba(0, 0, 0, .1);
+    float: left;
+    width: 7px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1px 37px 0 0;
+    padding: 0 12px;
+    -moz-box-shadow: 1px 0 0 rgba(8, 2, 80, 0.81), 1px 0 0 rgba(8, 2, 80, 0.81);
+    -webkit-box-shadow: 1px 0 0 rgba(8, 2, 80, 0.81), 1px 0 0 rgba(8, 2, 80, 0.81);
+    box-shadow: 1px 0 0 rgba(8, 2, 80, 0.81), 1px 0 0 rgba(8, 2, 80, 0.81);
+    -moz-border-radius: .15em 0 0 .15em;
+    -webkit-border-radius: .15em 0 0 .15em;
+    border-radius: .15em 0 0 .15em;
+}
+
+.add:before {
+    content: '\66';
+}
+
+.create {
+    position: absolute;
+    left: 208px;
+    top: 496px;
+    width: 151px;
+    height: 34px;
+    background-image: -webkit-linear-gradient(top, #4EABDA 20%, #2E7BC4 70%);
+    border: 1px solid #4EABDA;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    line-height: 16px;
+}
+
+.center input[placeholder] {
+    padding-left: 17px;
+    font-size: 14px;
+}
+
+.center input {
+    width: 257px;
+    color: #fff;
+    background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1), inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 1px 0 #4b4b4b;
+    border-style: none;
+}
+
+.center input:first-child {
+    margin-top: 58px;
+}
+
+.center input:focus {
+    height: 35px;
+    background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 1px 0 #4b4b4b;
+}
+
+.check {
+    height: 13px;
+    margin-top: 75px;
+    margin-left: 140px;
+}
+
+.check input {
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+}
+
+span {
+    width: 214px;
+    height: 14px;
+    color: #ccc;
+    font-family: 'HelveticaNeueLt', Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 5px;
+}
+
+.agreement {
+    width: 309px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-left: 119px;
+    text-align: center;
+    color: #ccc;
+    font-family: 'HelveticaNeueLt', Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}
